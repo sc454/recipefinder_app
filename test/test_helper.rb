@@ -6,4 +6,7 @@ class ActiveSupport::TestCase
   fixtures :all
 
   # Add more helper methods to be used by all tests here...
+ # Capybara.register_driver :poltergeist do |app|
+#	Capybara::Poltergeist::Driver.new(app, timeout: 1.minute)
+  #end
 end
